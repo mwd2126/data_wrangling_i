@@ -1,0 +1,24 @@
+ ---
+title: Simple document
+author: Michael Denham
+date begun: September 20
+output: 
+  html_document
+    toc: true
+    toc_float: true
+---
+
+I'm an R Markdown document! 
+
+# Section 1
+
+
+```{r setup}
+samp = rnorm(100)
+length(samp)
+```
+
+# Section 2
+
+I can take the mean of the sample, too!
+The mean is `r mean(samp)`.
